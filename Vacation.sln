@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation.Core", "Vacation.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation.Domain", "Vacation.Domain\Vacation.Domain.csproj", "{58DD246E-891A-4C45-A8E7-A2DA0C1A20FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation.Application", "Vacation.Application\Vacation.Application.csproj", "{645048FF-3F46-4D11-87DA-8DA2379E4557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +29,15 @@ Global
 		{58DD246E-891A-4C45-A8E7-A2DA0C1A20FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DD246E-891A-4C45-A8E7-A2DA0C1A20FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DD246E-891A-4C45-A8E7-A2DA0C1A20FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645048FF-3F46-4D11-87DA-8DA2379E4557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645048FF-3F46-4D11-87DA-8DA2379E4557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645048FF-3F46-4D11-87DA-8DA2379E4557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645048FF-3F46-4D11-87DA-8DA2379E4557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41D8B65B-F8A3-4C51-94BF-71DC92A1BAA9} = {56E0D780-6B47-4E61-89DB-DB0936CEEEE4}
 		{FBF89163-F97F-4BBE-BDF8-5563F98BD41B} = {56E0D780-6B47-4E61-89DB-DB0936CEEEE4}
 		{58DD246E-891A-4C45-A8E7-A2DA0C1A20FA} = {56E0D780-6B47-4E61-89DB-DB0936CEEEE4}
+		{645048FF-3F46-4D11-87DA-8DA2379E4557} = {56E0D780-6B47-4E61-89DB-DB0936CEEEE4}
 	EndGlobalSection
 EndGlobal
